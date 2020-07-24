@@ -20,3 +20,10 @@ Você recebe 5 anos de dados de vendas de itens de loja e é solicitado a prever
 Qual é a melhor maneira de lidar com a sazonalidade? As lojas devem ser modeladas separadamente ou você pode agrupá-las? O aprendizado profundo funciona melhor que o ARIMA? Pode bater xgboost?
 
 É uma grande competição para explorar diferentes modelos e aprimorar suas habilidades em previsão.
+
+__Considerações__:
+  A solução que adotei é simples e tem um resultado OK (private score = 15.92151 e public score = 16.53754). Meu principal intuito ao fazer esse desafio foi para treinar, praticamente, todas as etapas de um projeto de ciências de dados (bem simplificado). Fiz um app web para que a pessoa entre com o dataset de teste e o app gere as previsões. Tentei comentar todo meu raciocínio para a solução do problema.
+  
+Link do app: https://web-app-store-item.herokuapp.com/
+
+obs: Devido as limitações do Heroku tive que sacrificar 'accurácia' do modelo para conseguir subir com o modelo para nuvem!
